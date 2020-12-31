@@ -1,1 +1,0 @@
-Customer Details Name : f, Gender : f, Address : f, About : f

@@ -1,0 +1,121 @@
+/* Welcome Section */
+
+#welcome {
+    background: url('/static/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Direction is important here. because, by default it is Row so, each element will come after another. but column will make it below one another */
+    flex-direction: column;
+    height: 400px;
+    /* opacity: 0.5; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#welcome .h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#welcome .h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(163, 163, 163);
+}
+
+/* Mission Section */
+
+#mission {
+    /* padding: 30px 0px; */
+    height: 450px;
+}
+
+.title {
+    padding: 10px 0px;
+}
+
+.cards {
+    color: rgb(103, 33, 160);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#card1, #card2, #card3 {
+    width: 30%;
+}
+
+.heading {
+    color: 195190FF;
+    background-color: A2A2A1FF;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    color: #2BAE66FF;
+    background-color: #FCF6F5FF;
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card1 {
+    padding-bottom: 20px;
+}
+
+.card2 {
+    padding-bottom: 30px;
+}
+
+.card3 {
+    padding-bottom: 15px;
+}
+
+.card p {
+    padding-left: 10px;
+}
+
+/* Sponser Section */
+
+#sponsers {
+    background-color: thistle;
+    height: 250px;
+}
+
+.title {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.sponsor-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-imgs img {
+    width: 150px;
+    padding: 10px 30px;
+}

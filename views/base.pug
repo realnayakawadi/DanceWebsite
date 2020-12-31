@@ -1,0 +1,25 @@
+//- This base.pug will actually be executed in background.
+//- But, The necesory content will be traced from block files (e.g. Home or Contact or About) [It will include only blocks]
+html
+    head
+        title Dance Academy
+        style
+            //- We must provide here separate css file that will include only base css code (base.css)
+            include ../static/base.css
+        block style
+    body
+        block navigation
+            nav#navigation
+                #logo
+                    img(src="../static/logo.png", alt="TDA")
+                    p THE DANCE ACADEMY
+                ul
+                    li #[a(href="/#Welcome") Home]
+                    li #[a(href="/#mission") Mission]
+                    li #[a(href="/#sponsers") Sponsors]
+                    li #[a(href="/") Support]
+                    li #[a(href="/contact") Contact]
+        block content
+        block footer
+            footer
+                p Copyright 2020 | Samir Nayakawadi

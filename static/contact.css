@@ -1,0 +1,29 @@
+.container{
+    height: 500px;
+}
+
+.title{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+input, textarea, button{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+
+.contact h2{
+    text-align: center;
+}

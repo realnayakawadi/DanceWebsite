@@ -1,0 +1,42 @@
+//- This home.pug file will be served as the main file & will just include required blocks
+//- extends base.pug will be executed first & required blocks will be traced from home.pug
+extends base.pug
+
+block style
+    style
+        include ../static/home.css
+
+block content
+    section#Welcome
+        .h1 Welcome to The Dance Academy
+        .h2 Eat. Sleep. Dance. Repeat
+
+    section#mission
+        .title Our Mission
+        .cards
+            #card1
+                .heading
+                    | Outstanding Performace
+                .card.card1
+                    img(src="../static/1.png", alt="")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat vel a voluptatum perferendis nulla nobis ut quasi officiis corrupti?
+            #card2
+                .heading
+                    | A+ Graded by Universities
+                .card.card2
+                    img(src="../static/2.png", alt="")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam minima numquam consequatur. Id temporibus quidem reiciendis, eligendi optio
+            #card3
+                .heading
+                    | Best in City
+                .card.card3
+                    img(src="../static/3.png", alt="")
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident quos incidunt delectus quidem rerum, sequi laudantium eveniet corrupti
+
+    section#sponsers
+        .title Our Sponsors
+        .sponsor-imgs
+            img(src="../static/logo1.png", alt="Sponsor Image 1")
+            img(src="../static/logo2.png", alt="Sponsor Image 2")
+            img(src="../static/logo3.png", alt="Sponsor Image 3")
+            img(src="../static/logo4.png", alt="Sponsor Image 4")

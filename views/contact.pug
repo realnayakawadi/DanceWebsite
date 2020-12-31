@@ -1,0 +1,18 @@
+extends base.pug
+
+block style
+    style
+        include ../static/contact.css
+
+block content
+    .container
+        .title
+            h2 Contact US
+        
+        form(action="" method="POST" class="contact")
+            input(type="text" name="name" placeholder="Enter Your Name")
+            input(type="text" name="gender" placeholder="Enter Your Gender")
+            input(type="text" name="address" placeholder="Enter Your Address")
+            textarea(name="about", cols="30", rows="5" placeholder="Enter About Yourself")
+            button Submit
+            h2 #{status}

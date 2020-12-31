@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Section */
+
+#navigation {
+    /* position: sticky;
+    top: 0px; */
+    background-color: blueviolet;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo p {
+    margin-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+#logo img {
+    /* New Property - Used to filter images invert in this case. see more at w3schools */
+    filter: invert();
+    height: 50px;
+}
+
+#navigation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#navigation ul li a {
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+/* Footer Section */
+
+footer{
+    /* font-size: 30px; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
